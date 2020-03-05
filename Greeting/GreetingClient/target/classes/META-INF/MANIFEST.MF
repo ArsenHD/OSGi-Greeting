@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1583434777645
+Build-Jdk: 1.8.0_231
+Built-By: HP
+Bundle-ManifestVersion: 2
+Bundle-Name: Greeting Client
+Bundle-SymbolicName: greeting-client
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: ru.softwerke.practice.client;version="1.0.0";uses:="ru.s
+ oftwerke.practice.greeting"
+Import-Package: ru.softwerke.practice.greeting;version="[1.0,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Service-Component: OSGI-INF/ru.softwerke.practice.client.GreetingClient.
+ xml
+Tool: Bnd-4.2.0.201903051501
