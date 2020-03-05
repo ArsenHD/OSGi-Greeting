@@ -6,7 +6,7 @@ import org.apache.felix.scr.annotations.Property;
 import org.apache.felix.scr.annotations.Service;
 
 @SuppressWarnings("deprecation")
-@Component
+@Component(name = "Hello Gogo command")
 @Service(value = Object.class)
 @Properties({
         @Property(name = "osgi.command.scope", value = "practice"),
