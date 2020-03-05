@@ -18,6 +18,7 @@
     <modules>
         <module>GreetingService</module>
         <module>GreetingClient</module>
+        <module>HelloCommand</module>
     </modules>
 
     <build>
