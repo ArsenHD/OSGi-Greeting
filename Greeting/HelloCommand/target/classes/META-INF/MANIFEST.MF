@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1583452401616
+Bnd-LastModified: 1583452752859
 Build-Jdk: 1.8.0_231
 Built-By: HP
 Bundle-ManifestVersion: 2
 Bundle-Name: Hello Command
-Bundle-SymbolicName: HelloCommand
+Bundle-SymbolicName: hello-command
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 Export-Package: ru.softwerke.practice.hello;version="1.0.0"
